@@ -2,7 +2,7 @@ FROM openjdk:12-alpine
 
 # Download Awtrix Server jar
 RUN apk add --no-cache wget
-RUN wget -O /opt/awtrix.jar https://blueforcer.de/downloads/awtrix.jar
+RUN wget -O /opt/awtrix.jar https://blueforcer.de/beta/awtrix.jar
 
 # Web Ui Server Port
 EXPOSE 7000
