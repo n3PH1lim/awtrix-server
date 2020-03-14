@@ -6,7 +6,7 @@ RUN wget -O /opt/awtrix.jar https://blueforcer.de/awtrix/stable/awtrix.jar
 
 
 # Web Ui Server Port
-EXPOSE 7000
+EXPOSE 7000 7001
 
 WORKDIR /opt
 
